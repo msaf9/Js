@@ -1,5 +1,4 @@
 ## Thanos Web Snap
----
 
 > Snap 🤏
 > 
