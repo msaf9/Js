@@ -1,0 +1,4 @@
+function snap(){
+    window.close();
+}
+
