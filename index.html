@@ -15,14 +15,13 @@
   </head>
   <body>
     <h2>In progress</h2>
-    <form action="/action_page.php">
-      <div class="center snap-button">
-        <input type="file" id="myFile" name="filename" />
-      </div>
-      <br />
-      <div class="snap-button">
-        <button>Snap</button>
-      </div>
-    </form>
+    <div class="center snap-button">
+      <input type="file" id="upload" />
+    </div>
+    <br />
+    <div class="snap-button" onclick="upload()">
+      <button>Snap</button>
+    </div>
+    <h2 id="result">File name:</h2>
   </body>
 </html>
